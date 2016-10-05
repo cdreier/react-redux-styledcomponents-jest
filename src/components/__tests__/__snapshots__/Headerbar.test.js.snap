@@ -1,0 +1,6 @@
+exports[`test renders the headerbar correctly 1`] = `
+<div
+  className="container-837848457">
+  Awesome title!
+</div>
+`;
