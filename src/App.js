@@ -1,5 +1,5 @@
 import React from 'react'
-import useSheet from 'react-jss'
+import injectSheet from 'react-jss'
 
 import Headerbar from './components/Headerbar'
 
@@ -19,4 +19,4 @@ const styles = {
   }
 }
 
-export default useSheet(App, styles)
+export default injectSheet(styles)(App)
