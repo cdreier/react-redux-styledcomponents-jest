@@ -1,21 +1,19 @@
 import React from 'react'
-import injectSheet from 'react-jss'
+import styled from 'styled-components'
 
-const Headerbar = ({sheet, children}) => {
-  const { container } = sheet.classes
+const Wrapper = styled.div`
+  backgroundColor: #333;
+  padding: 10px;
+  color: white;
+`
+
+const Headerbar = ({children}) => {
   return (
-    <div className={container}>
+    <Wrapper>
       {children}
-    </div>
+    </Wrapper>
   )
 }
 
-const styles = {
-  container: {
-    backgroundColor: '#333',
-    padding: 10,
-    color: 'white',
-  }
-}
 
-export default injectSheet(styles)(Headerbar)
+export default Headerbar
