@@ -1,1 +1,1 @@
-# react-redux-jss-jest
+# react-redux-styledcomponents-jest
