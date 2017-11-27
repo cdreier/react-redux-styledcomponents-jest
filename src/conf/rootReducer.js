@@ -1,9 +1,13 @@
 import { combineReducers } from 'redux'
 
 const debug = (state = {}, action = {}) => {
-    return state
+  switch (action.type){
+    case 'TODO':
+      return state
+  }
+  return state
 }
 
 export default combineReducers({
-  debug
+  debug,
 })

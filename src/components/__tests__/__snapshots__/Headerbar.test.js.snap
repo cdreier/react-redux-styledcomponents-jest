@@ -2,7 +2,7 @@
 
 exports[`renders the headerbar correctly 1`] = `
 <div
-  className="eudBXp"
+  className="sc-bdVaJa dcywn"
 >
   Awesome title!
 </div>
